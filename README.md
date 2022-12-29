@@ -29,7 +29,7 @@ This was made as a university project, and meant for learning about RESTful API 
 
 ## Team
 
-| ![Stratis-Dermanoutsos](https://avatars2.githubusercontent.com/Stratis-Dermanoutsos) | ![John-Athanasopoulos](https://avatars2.githubusercontent.com/John-Athanasopoulos) | ![JimChr-R4GN4R](https://avatars2.githubusercontent.com/JimChr-R4GN4R) |
+| [![Stratis-Dermanoutsos](https://avatars2.githubusercontent.com/Stratis-Dermanoutsos)](https://github.com/Stratis-Dermanoutsos) | [![John-Athanasopoulos](https://avatars2.githubusercontent.com/John-Athanasopoulos)](https://github.com/John-Athanasopoulos) | [![JimChr-R4GN4R](https://avatars2.githubusercontent.com/JimChr-R4GN4R)](https://github.com/JimChr-R4GN4R) |
 | --- | --- | --- |
 | Ευστράτιος Δερμανούτσος | Ιωάννης Αθανασόπουλος | Δημήτριος Χρυσοχέρης |
 | π19041 | π19005 | π19190 |
