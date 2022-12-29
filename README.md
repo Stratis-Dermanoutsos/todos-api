@@ -48,19 +48,19 @@ This was made as a university project, and meant for learning about RESTful API 
    git clone Stratis-Dermanoutsos/todos-api
    ```
 
-2. Run
+2. Get the gems (packages)
 
    ```zsh
    bundle install
    ```
 
-3. Run
+3. Run the DB migrations
 
    ```zsh
    rails db:migrate
    ```
 
-4. Run
+4. Start the server
 
    ```zsh
    rails s
