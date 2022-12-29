@@ -21,10 +21,6 @@ Described below are the functionalities we created:
 | PUT | /todos/:id/items/:iid | Update a todo item  |
 | DELETE | /todos/:id/items/:iid | Delete a todo item |
 
-We developed the 'main' branch locally (using an Ubuntu terminal) with SQlite3 as our database.
-
-Meanwhile, the 'heroku' branch has some needed changes (most notably using PostgreSQL instead of SQlite3) in order to be able to be deployed on heroku.
-
 This was made as a university project, and meant for learning about RESTful API development.  
 
 ## Team
