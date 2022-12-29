@@ -1,24 +1,67 @@
-# README
+# Todo list
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a REST API, made with Ruby on Rails, for managing a Todo list.
 
-Things you may want to cover:
+It uses JWT for authentication and ActiveRecord for CRUD operations.
 
-* Ruby version
+Described below are the functionalities we created:
 
-* System dependencies
+| HTTP method | Endpoint | Functionality |
+| -- | -- | -- |
+| POST | /signup | Signup  |
+| POST | /auth/login | Login  |
+| GET | /auth/logout | Logout  |
+| GET | /todos | List all todos and todo items  |
+| POST | /todos | Create a new todo  |
+| GET | /todos/:id | Get a todo  |
+| PUT | /todos/:id | Update a todo  |
+| DELETE | /todos/:id | Delete a todo and its items  |
+| GET | /todos/:id/items/:iid | Get a todo item  |
+| POST | /todos/:id/items | Create a new todo item  |
+| PUT | /todos/:id/items/:iid | Update a todo item  |
+| DELETE | /todos/:id/items/:iid | Delete a todo item |
 
-* Configuration
+We developed the 'main' branch locally (using an Ubuntu terminal) with SQlite3 as our database.
 
-* Database creation
+Meanwhile, the 'heroku' branch has some needed changes (most notably using PostgreSQL instead of SQlite3) in order to be able to be deployed on heroku.
 
-* Database initialization
+This was made as a university project, and meant for learning about RESTful API development.  
 
-* How to run the test suite
+## Team
 
-* Services (job queues, cache servers, search engines, etc.)
+| ![Stratis-Dermanoutsos](https://avatars2.githubusercontent.com/Stratis-Dermanoutsos) | ![John-Athanasopoulos](https://avatars2.githubusercontent.com/John-Athanasopoulos) | ![JimChr-R4GN4R](https://avatars2.githubusercontent.com/JimChr-R4GN4R) |
+| --- | --- | --- |
+| Ευστράτιος Δερμανούτσος | Ιωάννης Αθανασόπουλος | Δημήτριος Χρυσοχέρης |
+| π19041 | π19005 | π19190 |
 
-* Deployment instructions
+## Tutorial we followed
 
-* ...
+1. [Build a RESTful JSON API With Rails 5 - Part 1](https://www.digitalocean.com/community/tutorials/build-a-restful-json-api-with-rails-5-part-one)
+2. [Build a RESTful JSON API With Rails 5 - Part 2](https://www.digitalocean.com/community/tutorials/build-a-restful-json-api-with-rails-5-part-two)
+3. [Build a RESTful JSON API With Rails 5 - Part 3](https://www.digitalocean.com/community/tutorials/build-a-restful-json-api-with-rails-5-part-three)
+
+## Instructions for local deployment
+
+1. Clone the repo
+
+   ```zsh
+   git clone Stratis-Dermanoutsos/todos-api
+   ```
+
+2. Run
+
+   ```zsh
+   bundle install
+   ```
+
+3. Run
+
+   ```zsh
+   rails db:migrate
+   ```
+
+4. Run
+
+   ```zsh
+   rails s
+   ```
