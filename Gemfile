@@ -16,6 +16,8 @@ gem 'active_model_serializers'
 gem 'will_paginate'
 gem 'faker'
 
+gem 'rswag'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
