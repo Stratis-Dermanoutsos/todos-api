@@ -61,3 +61,9 @@ This was made as a university project, and meant for learning about RESTful API 
    ```zsh
    rails s
    ```
+
+## Run automated tests
+
+```zsh
+bundle exec rspec
+```
