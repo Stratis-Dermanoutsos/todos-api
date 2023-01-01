@@ -41,7 +41,7 @@ This was made as a university project, and meant for learning about RESTful API 
 1. Clone the repo
 
    ```zsh
-   git clone Stratis-Dermanoutsos/todos-api
+   git clone https://github.com/Stratis-Dermanoutsos/todos-api.git
    ```
 
 2. Get the gems (packages)
