@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe 'Authentication', type: :request do
+  describe "GET /index" do
+    pending "add some examples (or delete) #{__FILE__}"
+  end
+
   # Authentication test suite
   describe 'POST /auth/login' do
     # create test user

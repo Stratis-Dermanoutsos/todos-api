@@ -65,5 +65,5 @@ This was made as a university project, and meant for learning about RESTful API 
 ## Run automated tests
 
 ```zsh
-bundle exec rspec
+bundle exec rspec spec/auth -fd
 ```

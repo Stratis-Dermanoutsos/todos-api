@@ -7,6 +7,10 @@ RSpec.describe 'Users API', type: :request do
     attributes_for(:user, password_confirmation: user.password)
   end
 
+  describe "GET /index" do
+    pending "add some examples (or delete) #{__FILE__}"
+  end
+
   # User signup test suite
   describe 'POST /signup' do
     context 'when valid request' do
