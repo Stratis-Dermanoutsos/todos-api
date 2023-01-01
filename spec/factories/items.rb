@@ -1,7 +1,7 @@
 FactoryBot.define do
-    factory :item do
-        name { Faker::Lorem.character }
-        done { false }
-        todo
-    end
+  factory :item do
+    todo
+    name { Faker::Lorem.character }
+    done { false }
+  end
 end
